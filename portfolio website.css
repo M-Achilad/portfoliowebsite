@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 body{
     background-color: #0a192f;
 }
@@ -17,7 +16,7 @@ header{
     position: fixed;
     z-index: 999;
     width:100%;
-    padding: 10px 200px;
+    padding: 0.625em 12.5em;
     align-items: center;
 }
 .logo{
@@ -27,74 +26,73 @@ header{
     font-family: 'Silkscreen', cursive;
     font-size: 1.4em;
     font-weight: 700;
-    padding: 8px;
+    padding: 0.5em;
     text-decoration: none;
     text-transform: uppercase;
 }
-
 .navbar a{
     color: #64ffda;
     font-size: 1.1em;
     font-weight: 500;
-    padding-left: 30px;
+    padding-left: 1.875em;
     text-decoration: none;
 }
 .navbar a:hover{
     color: #ccd6f6;
 }
 section{
-    padding: 100px 200px;
+    padding: 6.25em 12.5em;
 }
 .main{
     width: 100%;
     min-height: 100vh;
     display: flex;
     align-items: center;
-    padding-top: 1px;
+    padding-top: 0.0625em;
 }
 .main h2 {
     display: inline-block;
-    font-size:14px;
+    font-size:0.875em;
     font-family: 'Silkscreen', cursive;
     color: #64ffda;
     font-weight: 500;
-    margin-bottom: 25px;
+    margin-bottom: 1.5625em;
 }
 .main h2 span{
     font-size:4em;
     color: #ccd6f6;
     font-family: 'Silkscreen', cursive;
     font-weight: 600;
-    letter-spacing: 1px;
+    letter-spacing: 0.0625em;
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 0.625em;
 }
 .main h3{
     font-size: 4em;
     font-weight: 700;
     color: #8892b0;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+    letter-spacing: 0.0625em;
+    margin-bottom: 0.9375em;
 }
 .description{
-    width: 600px;
+    width: 37.5em;
     color: #8892b0;
-    font-size: 18px;
-    margin-bottom: 20px;
+    font-size: 1.125em;
+    margin-bottom: 1.25em;
 }
 .M_button{
     color: #64ffda;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1em;
     display: inline-block;
-    border: #64ffda solid 1px;
-    border-radius: 5px;
+    border: #64ffda solid 0.0625em;
+    border-radius: 0.3125em;
     font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
-    width: 230px;
+    width: 18.6em;
     margin-top: 2.5em;
     margin-bottom: 2.3em;
-    padding: 18px 25px;
-    letter-spacing: 1px;
+    padding: 1.125em 1.5625em;
+    letter-spacing: 0.0625em;
     text-align: center;
     font-weight: 700;
     transition: 0.5s ease;
@@ -105,8 +103,8 @@ section{
 }
 .social-icons a{
     color: #8892b0;
-    font-size: 20px;
-    padding-right: 30px;
+    font-size: 1.25em;
+    padding-right: 1.875em;
 }
 
 .title{
@@ -115,7 +113,7 @@ section{
     color: #ccd6f6;
     font-size: 3em;
     font-weight: 800;
-    margin-bottom: 50px;
+    margin-bottom: 3.125em;
 }
 .content{
     display: flex;
@@ -126,11 +124,14 @@ section{
 .card{
     background-color: #0b1e3b;
     width: 25em;
-    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
-    border-radius: 10px;
-    padding: 25px;
-    margin-right: 25px;
-    margin-bottom: 10em;
+    height: 25em;
+    line-height: 2em;
+    font-weight: 800;
+    box-shadow: 0 0.3125em 1.5625em rgba(1 1 1 / 15%);
+    border-radius: 0.625em;
+    padding: 1.5625em;
+    margin-right: 1.5625em;
+    margin-bottom: 12.5em;
     transition: 0.5s ease;
 }
 .card:hover{
@@ -144,11 +145,11 @@ section{
 .info{
     text-align: center;
 }
-.info h3{
+.info h2{
     color: #64ffda;
     font-size: 1.4em;
     font-weight: 700;
-    margin: 10px;
+    margin: 0.625em;
 }
 .info p{
     color: #8892b0;
@@ -162,18 +163,12 @@ section{
 .h_things h2{
     color: #ccd6f6;
     font-size: 1.5em;
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
 }
 .h_things p{
     color: #8892b0;
-    font-size: 18px;
+    font-size: 1.125em;
     width: 28.25em;
-}
-#two{
-    margin-left: 50em;
-}
-#p3{
-    margin-bottom: 4em;
 }
 .h_things h6{
     color: #ccd6f6;
@@ -186,31 +181,43 @@ section{
 .h_things span:hover{
     color: green;
 }
-.mini_title h4{
+.skills h4{
     color: #ccd6f6;
     font-size: 1.8em;
-    letter-spacing: 1px;
+    letter-spacing: 0.0625em;
     display: flex;
     justify-content: center;
     font-weight: 800;
     margin-top: 4em;
     margin-bottom: 4em;
 }
-#card_skills{
-    width: 100%;
-    background-color: #0a192f;
-    margin-top: 4em;
+.tb_content{
     display: flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
 }
-#ICONS{
-    font-size: 3em;
+.tb_card{
+    background-color: #0b1e3b;
+    width: 8em;
+    height: 7em;
+    box-shadow: 0 0.3125em 1.5625em rgba(1 1 1 / 15%);
+    border-radius: 0.625em;
+    padding: 1.5625em;
+    margin-right: 1.5625em;
+    margin-bottom: 10em;
+    transition: 0.5s ease;
+}
+.tb_card .icon{
     color: #64ffda;
-    padding-right: 3em;
+    font-size: 3.5em;
 }
+.tb_card:hover{
+    transform: scale(1.1);
+}
+
 #contact{
+    width: 100%;
     background-color: #8892b0;
 }
 .contact .icon{
@@ -239,6 +246,7 @@ section{
 .footer .social-icons a{
     font-size: 1.3em;
 }
+
 @media (max-width:1023px){
     header{
         padding: 12px 20px;
@@ -252,10 +260,10 @@ section{
     section{
         padding: 80px 20px;
     }
-    .main-content h2{
+    .main h2{
         font-size: 1em;
     }
-    .main-content h3{
+    .main h3{
         font-size: 1.6em;
     }
     .content{
@@ -268,11 +276,11 @@ section{
         font-size: 12px;
     }
 
-    .main-content h2{
+    .main h2{
         font-size: 0.8em;
     }
 
-    .main-content h3{
+    .main h3{
         font-size: 1.4em;
     }
 }
